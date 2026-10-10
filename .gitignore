@@ -5,5 +5,7 @@ __pycache__/
 ckpt/*
 !ckpt/.gitkeep
 
-# Paper source
+# Paper source and supporting materials
 *.tex
+论文可信支撑材料.html
+M论文可信支撑材料 copy.pdf
