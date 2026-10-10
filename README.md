@@ -123,18 +123,18 @@ and the raw per-text scores, so distributions can be replotted without rerunning
 One script per experiment. Each loops over its datasets, runs the detectors one by one, and writes
 one JSON file per (method, dataset) pair — so you can comment out the method blocks you don't need.
 
-| Script | Experiment | Input | Output |
-| :--- | :--- | :--- | :--- |
-| `scripts/Main/run_main.sh` | Main comparison, all 15 detectors | `datasets/Main/` | `results/main/` |
-| `scripts/Attack/run_attack.sh` | Robustness to 4 adversarial attacks | `datasets/Attack/` | `results/attack/` |
-| `scripts/Len/run_len.sh` | Robustness across 16 input lengths | `datasets/Len/` | `results/Len/` |
-| `scripts/Analysis/run_efficiency.sh` | Inference speed, s/1k tokens | `datasets/Main/HART.json` | `results/Analysis/Efficiency/` |
-| `scripts/Analysis/run_model_pair.sh` | Qwen2.5-1.5B / Gemma-2-2B pairs | `datasets/Main/` | `results/Analysis/Model-Pair/` |
-| `scripts/Analysis/run_sample_model.sh` | Sweep over sampling model $q_\phi$ | `datasets/Main/` | `results/sample_model/` |
-| `scripts/Analysis/run_generalization.sh` | Cross-dataset threshold transfer | `datasets/Main/` | `results/Analysis/Generalization/` |
-| `scripts/Analysis/run_KL.sh` | KL divergence as a standalone score | `datasets/Main/` | `results/Analysis/Pref-KL/` |
-| `scripts/Analysis/run_Prompt.sh` | Prompt-free vs. 4 domain prompts | `datasets/Visual/HART_Domain/` | `results/Analysis/Pref-Prompt/` |
-| `scripts/Visual/run_multidomain.sh` | Per-domain score distributions | `datasets/Visual/` | `results/Visual/` |
+| Script (under `scripts/`) | Experiment | Results |
+| :--- | :--- | :--- |
+| `Main/run_main.sh` | Main comparison, all 15 detectors | `results/main/` |
+| `Attack/run_attack.sh` | Robustness to 4 adversarial attacks | `results/attack/` |
+| `Len/run_len.sh` | Robustness across 16 input lengths | `results/Len/` |
+| `Analysis/run_efficiency.sh` | Inference speed in s/1k tokens | `results/Analysis/Efficiency/` |
+| `Analysis/run_model_pair.sh` | Qwen2.5-1.5B / Gemma-2-2B pairs | `results/Analysis/Model-Pair/` |
+| `Analysis/run_sample_model.sh` | Sweep over the sampling model | `results/sample_model/` |
+| `Analysis/run_generalization.sh` | Cross-dataset threshold transfer | `results/Analysis/Generalization/` |
+| `Analysis/run_KL.sh` | KL divergence as a standalone score | `results/Analysis/Pref-KL/` |
+| `Analysis/run_Prompt.sh` | Prompt-free vs. 4 domain prompts | `results/Analysis/Pref-Prompt/` |
+| `Visual/run_multidomain.sh` | Per-domain score distributions | `results/Visual/` |
 
 For example:
 
