@@ -1,0 +1,5 @@
+time,ckpt_name,eval_dataset,eval_batch_size,AUROC,TPR_AT_FPR_5%
+2026-10-05 15:38:21,ckpt/SPO_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_beta0.05_r8_e5,data_mixing_attacks_test,8,0.864716,0.536000
+2026-10-05 15:38:43,ckpt/SPO_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_beta0.05_r8_e5,paraphrase_attacks_llm_test,8,0.892348,0.666000
+2026-10-05 15:39:04,ckpt/SPO_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_beta0.05_r8_e5,perturbation_attacks_llm_test,8,0.845384,0.512000
+2026-10-05 15:39:26,ckpt/SPO_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_beta0.05_r8_e5,prompt_attacks_llm_test,8,0.907084,0.640000

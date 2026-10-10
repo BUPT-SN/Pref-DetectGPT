@@ -1,0 +1,17 @@
+time,ckpt_name,eval_dataset,eval_batch_size,AUROC,TPR_AT_FPR_5%
+2026-10-08 16:32:45,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_220_test,8,0.956676,0.858000
+2026-10-08 16:32:46,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_280_test,8,0.958756,0.874000
+2026-10-08 16:33:05,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_240_test,8,0.957596,0.862000
+2026-10-08 16:33:07,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_300_test,8,0.959636,0.862000
+2026-10-08 16:33:26,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_260_test,8,0.958076,0.882000
+2026-10-08 16:33:28,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_320_test,8,0.959696,0.874000
+2026-10-08 16:33:32,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_140_test,8,0.950676,0.836000
+2026-10-08 16:33:51,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_160_test,8,0.952312,0.834000
+2026-10-08 16:34:11,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_180_test,8,0.953668,0.840000
+2026-10-08 16:34:30,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_200_test,8,0.955116,0.846000
+2026-10-08 16:34:58,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_20_test,8,0.775826,0.268000
+2026-10-08 16:35:15,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_40_test,8,0.859998,0.318000
+2026-10-08 16:35:33,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_60_test,8,0.903140,0.532000
+2026-10-08 16:35:51,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_80_test,8,0.928156,0.702000
+2026-10-08 16:36:09,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_100_test,8,0.941224,0.830000
+2026-10-08 16:36:27,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART_cross_length_120_test,8,0.945988,0.834000

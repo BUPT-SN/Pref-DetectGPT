@@ -1,0 +1,15 @@
+{
+    "method": "Pref",
+    "reference_model_path": "meta-llama/Llama-3.2-1B",
+    "policy_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "sample_model_path": "meta-llama/Llama-3.2-1B",
+    "base_dataset": "datasets/Main/HART.json",
+    "optimal_threshold": 3.543118476867676,
+    "base_dataset_acc": 0.89775,
+    "generalization_datasets_acc": {
+        "DetectRL-MutiDomain": 0.92325,
+        "MIRAGE-DIG-2k": 0.96425,
+        "MIRAGE-SIG-2k": 0.9585
+    },
+    "average_generalization_acc": 0.9486666666666667
+}

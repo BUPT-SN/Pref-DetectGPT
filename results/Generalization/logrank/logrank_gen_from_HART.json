@@ -1,0 +1,15 @@
+{
+    "method": "logrank",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "base_dataset": "HART",
+    "eval_batch_size": 8,
+    "optimal_threshold": -1.2833328247070312,
+    "threshold_polarity": 1,
+    "base_dataset_acc": 0.68625,
+    "generalization_datasets_acc": {
+        "DetectRL-MutiDomain": 0.7805,
+        "MIRAGE-DIG-2k": 0.70075,
+        "MIRAGE-SIG-2k": 0.6985
+    },
+    "average_generalization_acc": 0.7265833333333332
+}

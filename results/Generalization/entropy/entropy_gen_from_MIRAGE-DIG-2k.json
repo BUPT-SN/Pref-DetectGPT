@@ -1,0 +1,15 @@
+{
+    "method": "entropy",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "base_dataset": "MIRAGE-DIG-2k",
+    "eval_batch_size": 8,
+    "optimal_threshold": -2.5575459003448486,
+    "threshold_polarity": 1,
+    "base_dataset_acc": 0.62925,
+    "generalization_datasets_acc": {
+        "DetectRL-MutiDomain": 0.747,
+        "HART": 0.6605,
+        "MIRAGE-SIG-2k": 0.62475
+    },
+    "average_generalization_acc": 0.6774166666666667
+}

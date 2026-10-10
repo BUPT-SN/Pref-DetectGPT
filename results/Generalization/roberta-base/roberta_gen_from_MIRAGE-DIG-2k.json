@@ -1,0 +1,13 @@
+{
+    "method": "roberta",
+    "model_name": "ckpt/roberta_base_ai_detector/last",
+    "base_dataset": "MIRAGE-DIG-2k",
+    "optimal_threshold": 0.9640516638755798,
+    "base_dataset_acc": 0.862,
+    "generalization_datasets_acc": {
+        "DetectRL-MutiDomain": 0.731,
+        "HART": 0.7885,
+        "MIRAGE-SIG-2k": 0.851
+    },
+    "average_generalization_acc": 0.7901666666666666
+}

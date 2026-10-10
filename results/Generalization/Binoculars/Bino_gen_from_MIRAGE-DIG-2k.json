@@ -1,0 +1,16 @@
+{
+    "method": "binoculars",
+    "observer_model_path": "meta-llama/Llama-3.2-1B",
+    "performer_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "base_dataset": "MIRAGE-DIG-2k",
+    "eval_batch_size": 8,
+    "optimal_threshold": -0.8806584477424622,
+    "threshold_polarity": 1,
+    "base_dataset_acc": 0.90225,
+    "generalization_datasets_acc": {
+        "DetectRL-MutiDomain": 0.84125,
+        "HART": 0.7315,
+        "MIRAGE-SIG-2k": 0.905
+    },
+    "average_generalization_acc": 0.8259166666666667
+}

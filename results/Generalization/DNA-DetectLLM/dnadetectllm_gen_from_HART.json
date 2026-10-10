@@ -1,0 +1,16 @@
+{
+    "method": "dna_detectllm",
+    "observer_model_path": "meta-llama/Llama-3.2-1B",
+    "performer_model_path": "meta-llama/Llama-3.2-1B-Instruct",
+    "base_dataset": "HART",
+    "eval_batch_size": 8,
+    "optimal_threshold": -0.6290322542190552,
+    "threshold_polarity": 1,
+    "base_dataset_acc": 0.78,
+    "generalization_datasets_acc": {
+        "DetectRL-MutiDomain": 0.86125,
+        "MIRAGE-DIG-2k": 0.86875,
+        "MIRAGE-SIG-2k": 0.8715
+    },
+    "average_generalization_acc": 0.8671666666666668
+}

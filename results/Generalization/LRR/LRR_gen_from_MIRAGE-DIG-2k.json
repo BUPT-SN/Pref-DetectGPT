@@ -1,0 +1,15 @@
+{
+    "method": "LRR",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "base_dataset": "MIRAGE-DIG-2k",
+    "eval_batch_size": 8,
+    "optimal_threshold": 2.017850160598755,
+    "threshold_polarity": 1,
+    "base_dataset_acc": 0.68675,
+    "generalization_datasets_acc": {
+        "DetectRL-MutiDomain": 0.72425,
+        "HART": 0.634,
+        "MIRAGE-SIG-2k": 0.67625
+    },
+    "average_generalization_acc": 0.6781666666666667
+}

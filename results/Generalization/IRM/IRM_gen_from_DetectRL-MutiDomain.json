@@ -1,0 +1,17 @@
+{
+    "method": "IRM",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "reference_model_name": "meta-llama/Llama-3.2-1B",
+    "discrepancy_analytic": true,
+    "base_dataset": "DetectRL-MutiDomain",
+    "eval_batch_size": 8,
+    "optimal_threshold": -60.3397216796875,
+    "threshold_polarity": 1,
+    "base_dataset_acc": 0.907,
+    "generalization_datasets_acc": {
+        "HART": 0.7945,
+        "MIRAGE-DIG-2k": 0.82775,
+        "MIRAGE-SIG-2k": 0.838
+    },
+    "average_generalization_acc": 0.8200833333333333
+}

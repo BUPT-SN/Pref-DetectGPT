@@ -1,0 +1,5 @@
+time,ckpt_name,eval_dataset,eval_batch_size,AUROC,TPR_AT_FPR_5%
+2026-10-05 11:25:16,ckpt/SPO_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_beta0.05_r8_e5,DetectRL-MutiDomain,8,0.864288,0.551000
+2026-10-05 11:26:02,ckpt/SPO_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_beta0.05_r8_e5,HART,8,0.917882,0.722000
+2026-10-05 11:26:34,ckpt/SPO_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_beta0.05_r8_e5,MIRAGE-DIG-2k,8,0.904897,0.522000
+2026-10-05 11:27:07,ckpt/SPO_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_beta0.05_r8_e5,MIRAGE-SIG-2k,8,0.895898,0.512500

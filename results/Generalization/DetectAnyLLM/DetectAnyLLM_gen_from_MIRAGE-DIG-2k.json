@@ -1,0 +1,13 @@
+{
+    "ckpt_name": "ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5",
+    "base_dataset": "MIRAGE-DIG-2k",
+    "eval_batch_size": 8,
+    "optimal_threshold": 6.153963565826416,
+    "base_dataset_acc": 0.93525,
+    "generalization_datasets_acc": {
+        "DetectRL-MutiDomain": 0.83875,
+        "HART": 0.88075,
+        "MIRAGE-SIG-2k": 0.93475
+    },
+    "average_generalization_acc": 0.88475
+}

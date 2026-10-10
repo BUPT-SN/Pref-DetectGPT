@@ -1,0 +1,5 @@
+time,ckpt_name,base_dataset,eval_batch_size,optimal_threshold,base_acc,avg_gen_acc
+2026-10-05 17:12:31,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,DetectRL-MutiDomain,8,3.811937,0.844250,0.905250
+2026-10-05 17:14:21,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,HART,8,19.393633,0.899250,0.809333
+2026-10-05 17:16:10,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,MIRAGE-DIG-2k,8,6.153964,0.935250,0.884750
+2026-10-05 17:18:00,ckpt/DDL_score_Llama-3.2-1B-Instruct_ref_None_ai_detection_500_polish.raw_data_lr0.0001_bs1_rewTgt100.0_oriTgt0.0_r8_e5,MIRAGE-SIG-2k,8,6.196377,0.934750,0.884667

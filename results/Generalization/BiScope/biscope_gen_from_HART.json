@@ -1,0 +1,14 @@
+{
+    "method": "biscope",
+    "detect_model": "Llama-3.2-1B-Instruct",
+    "summary_model": "none",
+    "base_dataset": "HART",
+    "optimal_threshold": 0.51,
+    "base_dataset_acc": 0.80725,
+    "generalization_datasets_acc": {
+        "DetectRL-MutiDomain": 0.76775,
+        "MIRAGE-DIG-2k": 0.869,
+        "MIRAGE-SIG-2k": 0.854
+    },
+    "average_generalization_acc": 0.83025
+}

@@ -1,0 +1,15 @@
+{
+    "method": "likelihood",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "base_dataset": "HART",
+    "eval_batch_size": 8,
+    "optimal_threshold": -2.7183854579925537,
+    "threshold_polarity": 1,
+    "base_dataset_acc": 0.6795,
+    "generalization_datasets_acc": {
+        "DetectRL-MutiDomain": 0.78175,
+        "MIRAGE-DIG-2k": 0.71225,
+        "MIRAGE-SIG-2k": 0.705
+    },
+    "average_generalization_acc": 0.733
+}

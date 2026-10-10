@@ -1,0 +1,16 @@
+{
+    "method": "lastde_doubleplus",
+    "scoring_model_name": "meta-llama/Llama-3.2-1B-Instruct",
+    "reference_model_name": "meta-llama/Llama-3.2-1B",
+    "base_dataset": "DetectRL-MutiDomain",
+    "eval_batch_size": 1,
+    "optimal_threshold": 3.800426721572876,
+    "threshold_polarity": 1,
+    "base_dataset_acc": 0.65875,
+    "generalization_datasets_acc": {
+        "HART": 0.64725,
+        "MIRAGE-DIG-2k": 0.718,
+        "MIRAGE-SIG-2k": 0.7105
+    },
+    "average_generalization_acc": 0.6919166666666667
+}
