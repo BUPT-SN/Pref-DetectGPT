@@ -70,17 +70,6 @@ python Pref/eval_Pref_DetectGPT.py \
     --save_file Pref_HART.json
 ```
 
-`--max_token_observed` defaults to 512, matching the paper. The output file carries both the metrics
-and the raw per-text scores, so distributions can be replotted without rerunning the model:
-
-```json
-{
-    "method": "Pref", "eval_dataset": "HART",
-    "AUROC": 0.9595, "AUPR": 0.9647, "TPR_AT_FPR_5%": 0.8295, "F1": 0.8955,
-    "human_scores": [...], "llm_scores": [...]
-}
-```
-
 ---
 
 ## 🧪 Experiments
