@@ -30,12 +30,7 @@ pip3 install -r requirements.txt
 
 ### 1. Surrogate models
 
-Log in to Hugging Face and request access to the gated Llama repos — they download automatically on
-first run:
-
-```bash
-huggingface-cli login
-```
+Log in to Hugging Face and request access to the gated Llama repos:
 
 | Role | Default model | Needed for |
 | :--- | :--- | :--- |
