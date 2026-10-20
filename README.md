@@ -24,11 +24,6 @@ conda activate Pref
 pip3 install -r requirements.txt
 ```
 
-> **GPUs.** Pref-DetectGPT holds three models at once: reference on `cuda:0`, policy on `cuda:1`,
-> and the sampling model on `cuda:2` if a third GPU is visible, otherwise it shares `cuda:0`. Two
-> GPUs are enough for the default setting (the paper uses 2× RTX 4090, 24GB). Every script sets
-> `CUDA_VISIBLE_DEVICES` in its first lines — edit it before running.
-
 ---
 
 ## 📦 Preparation
