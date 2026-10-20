@@ -33,27 +33,7 @@ pip3 install -r requirements.txt
 
 ## 📦 Preparation
 
-### 1. Datasets
-
-All evaluation data is already in `datasets/`:
-
-| Directory | Contents | Used by |
-| :--- | :--- | :--- |
-| `datasets/Main/` | DetectRL (Multi-Domain), HART (Level 1), MIRAGE DIG / SIG — 2k+2k each | main, efficiency, model pair, sampling model, generalization, KL |
-| `datasets/Attack/` | DetectRL Multi-Attack — prompt, paraphrase, perturbation, data mixing | attack robustness |
-| `datasets/Len/` | HART truncated to 16 lengths (20 → 320 tokens) | length robustness |
-| `datasets/Visual/` | Per-domain splits of HART and DetectRL | score distributions, prompt study |
-
-All files use the `ImBD` format — a dict of two parallel lists:
-
-```json
-{"human": ["...", "..."], "llm": ["...", "..."]}
-```
-
-The files in `datasets/Len/` are `datasets/Main/HART.json` truncated with the Llama-3.2-1B
-tokenizer, so the truncation unit matches the scoring models.
-
-### 2. Surrogate models
+### 1. Surrogate models
 
 Log in to Hugging Face and request access to the gated Llama repos — they download automatically on
 first run:
@@ -67,12 +47,10 @@ huggingface-cli login
 | Policy $p_\theta$ | `meta-llama/Llama-3.2-1B-Instruct` | all experiments |
 | Reference $p_\text{ref}$ | `meta-llama/Llama-3.2-1B` | all experiments |
 | Sampling $q_\phi$ | `meta-llama/Llama-3.2-1B` | all experiments |
-| Alternative pairs | `Qwen/Qwen2.5-1.5B(-Instruct)`, `google/gemma-2-2b(-it)` | model pair ablation |
-| Alternative samplers | `meta-llama/Llama-3-8B`, `Llama-3.1-8B`, `Llama-3.2-3B` | sampling model sweep |
 
 The policy and reference models must share a tokenizer; the code asserts this at load time.
 
-### 3. Baseline checkpoints
+### 2. Baseline checkpoints
 
 The supervised baselines (RoBERTa-Base / Large, ImBD, DetectAnyLLM, BiScope) need trained weights.
 Uncomment the blocks you need in `scripts/train.sh` and run it; the checkpoints are written to
@@ -82,10 +60,7 @@ Uncomment the blocks you need in `scripts/train.sh` and run it; the checkpoints 
 bash scripts/train.sh
 ```
 
-All of them train on the same ImBD polish dataset
-(`datasets/ai_detection_500_polish.raw_data.json`), which is not shipped here and must be obtained
-from the ImBD release. Skip this step if you only need Pref-DetectGPT and the training-free
-baselines.
+All of them train on the same ImBD polish dataset (`datasets/ai_detection_500_polish.raw_data.json`).
 
 ---
 
